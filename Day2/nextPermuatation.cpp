@@ -39,7 +39,8 @@ bool nextperm(string &s)
 	if(i<0)
 		return false;
 
-	int index = bsearch(s, i+1, len-1, s[i]);
+	//int index = bsearch(s, i+1, len-1, s[i]);
+	int index = len-1;
 	swap(s[i],s[index]);
 
 	while(i+1 < len-1)
@@ -60,7 +61,7 @@ void mymethod(string s)
 
 int main()
 {
-	string s = {"abedc"};
+	string s = {"dceab"};
 	
 	//stlmethod(s);
 	mymethod(s);
