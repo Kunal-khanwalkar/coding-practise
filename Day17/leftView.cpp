@@ -32,6 +32,33 @@ void leftView(node<int>* root)
 }
 
 
+void leftViewUhhh(node<int>* root)
+{
+	if(root==nullptr)
+		return;
+
+	queue<node<int>*> q;
+	q.push(root);
+	node<int>* curr;
+
+	while(!q.empty())
+	{
+		int n = q.size();		
+		for(int i=1;i<=n;i++)
+		{
+			curr = q.front();
+			q.pop();
+
+			if(i==1)
+				cout<<curr->data<<' ';
+			if(curr->left)
+				q.push(curr->left);
+			if(curr->right)
+				q.push(curr->right);
+		}
+	}
+}
+
 
 void leftViewRecursive(node<int>* root, int level, int* maxlevel)
 {
@@ -59,7 +86,7 @@ int main()
 	t.inorder(root);
 
 	cout<<"\nLeft view: ";
-	leftView(root);
+	leftViewUhhh(root);
 
 
 	cout<<"\nLeft view recursive: ";
