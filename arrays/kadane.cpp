@@ -1,61 +1,54 @@
 #include<iostream>
+#include<climits>
 using namespace std;
 
 
-void counting(int *arr, int n)
+int dp(int *arr, int size) 
 {
-	int n0s = 0, n1s = 0, n2s = 0;
-	for(int i=0;i<n;i++)
+	int max_so_far = INT_MIN, max_ending_here = 0;
+	int s,i,start,end;
+
+	for(i=0;i<size;i++)
 	{
-		switch(arr[i])
+		max_ending_here += arr[i];
+
+		if(max_ending_here < 0)
 		{
-			case 0: n0s++;
-					break;
-			case 1: n1s++;
-					break;
-			case 2: n2s++;
-					break;
+			max_ending_here = 0;
+			s = i+1;
+		}
+		else if(max_so_far < max_ending_here)
+		{
+			max_so_far = max_ending_here;
+			start = s;
+			end = i;
 		}
 	}
 
-	for(int i=0;i<n0s;i++)
-		arr[i] = 0;
-	for(int i=n0s;i<n0s + n1s;i++)
-		arr[i] = 1;
-	for(int i=n0s + n1s; i<n0s+n1s+n2s; i++)
-		arr[i] = 2;
+	cout<<"\nStarting index: "<<start;
+	cout<<"\nEnding index: "<<end;
+	return max_so_far;
 }
 
-
-
-void kadane(int *arr, int n)
+int kadane(int *arr, int size) 
 {
-	int low = 0, mid = 0, high = n-1;
+	int max_so_far = arr[0];
+	int curr_max = arr[0];
 
-	while(mid <= high)
+	for(int i=1;i<size;i++)
 	{
-		switch(arr[mid])
-		{
-			case 0: swap(arr[low++],arr[mid++]);
-					break;
-			case 1: mid++;
-					break;
-			case 2: swap(arr[high--],arr[mid]);
-					break;
-		}
+		curr_max = max(arr[i], curr_max + arr[i]);
+		max_so_far = max(max_so_far, curr_max);
 	}
-}
 
+	return max_so_far;
+}
 
 int main()
 {
-	int arr[] = {0,2,1,1,0,0};
-	int n = sizeof(arr)/sizeof(int);
+	int arr[] = {-2,-3,4,-1,-2,1,5,-3};
+	int size = sizeof(arr)/sizeof(int);
 
-	kadane(arr,n);
-
-	for(int i=0;i<n;i++)
-		cout<<arr[i]<<' ';
-
-	return 0;
+	int max_sum = kadane(arr,size);
+	cout<<"\nMax contiguous sum: "<<max_sum;
 }
