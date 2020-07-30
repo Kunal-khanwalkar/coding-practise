@@ -16,11 +16,11 @@
 - [X] Pythagorean Triplet
 - [X] Chocolate Distribution Problem
 - [ ] Stock buy and sell
-- [ ] Element with left side smaller and right side greater
-- [ ] Convert array into Zig-Zag fashion
-- [ ] Last Index of 1
-- [ ] Spirally traversing a matrix
-- [ ] Largest Number formed from an Array
+- [X] Element with left side smaller and right side greater
+- [X] Convert array into Zig-Zag fashion
+- [X] Last Index of 1
+- [X] Spirally traversing a matrix
+- [X] Largest Number formed from an Array
 
 Set 2
 - [X] Find Missing And Repeating
@@ -29,6 +29,6 @@ Set 2
 - [ ] Majority Element
 - [ ] Two numbers with sum closest to zero
 - [ ] Nuts and Bolts Problem
-- [ ] Boolean Matrix Problem
+- [X] Boolean Matrix Problem
 - [ ] Smallest Positive missing number
 - [ ] Jumping Caterpillars
