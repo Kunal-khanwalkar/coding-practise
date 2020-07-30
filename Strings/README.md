@@ -1,16 +1,16 @@
-- [ ] Reverse words in a given string
-- [ ] Permutations of a given string
-- [ ] Longest Palindrome in a String
-- [ ] Recursively remove all adjacent duplicates
+- [X] Reverse words in a given string
+- [X] Permutations of a given string
+- [X] Longest Palindrome in a String
+- [X] Recursively remove all adjacent duplicates
 - [ ] Check if string is rotated by two places
-- [ ] Roman Number to Integer
-- [ ] Anagram
+- [X] Roman Number to Integer
+- [X] Anagram
 - [ ] Remove Duplicates
 - [ ] Form a Palindrome
 - [ ] Longest Distinct Characters in the string
-- [ ] Implement Atoi
-- [ ] Implement strstr
-- [ ] Longest Common Prefix
+- [X] Implement Atoi
+- [X] Implement strstr
+- [X] Longest Common Prefix
 
 Set 2:
 - [ ] Most frequent word in an array of strings
@@ -18,7 +18,7 @@ Set 2:
 - [ ] String Ignorance
 - [ ] Smallest window in a string containing all the characters of another string
 - [ ] Design a tiny URL or URL shortener
-- [ ] Permutations of a given string
+- [X] Permutations of a given string
 - [ ] Non Repeating Character
 - [ ] Check if strings are rotations of each other or not
 - [ ] Save Ironman
