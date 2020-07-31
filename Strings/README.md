@@ -5,15 +5,15 @@
 - [ ] Check if string is rotated by two places
 - [X] Roman Number to Integer
 - [X] Anagram
-- [ ] Remove Duplicates
-- [ ] Form a Palindrome
+- [X] Remove Duplicates
+- [X] Form a Palindrome
 - [ ] Longest Distinct Characters in the string
 - [X] Implement Atoi
 - [X] Implement strstr
 - [X] Longest Common Prefix
 
 Set 2:
-- [ ] Most frequent word in an array of strings
+- [X] Most frequent word in an array of strings
 - [ ] CamelCase Pattern Matching
 - [ ] String Ignorance
 - [ ] Smallest window in a string containing all the characters of another string
