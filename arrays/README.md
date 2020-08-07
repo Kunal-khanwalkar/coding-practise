@@ -32,3 +32,4 @@ Set 2
 - [X] Boolean Matrix Problem
 - [ ] Smallest Positive missing number
 - [ ] Jumping Caterpillars
+- [X] Maximal disjoint intervals

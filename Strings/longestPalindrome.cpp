@@ -64,6 +64,53 @@ void newbruteforce(string str)
 }
 
 
+int expandFromMiddle(string s, int l, int r)
+{
+	if(s.length() < 1 || l > r)
+		return 0;
+
+	while(l>=0 && r<s.length() && s[l] == s[r])
+	{
+		l--;
+		r++;
+	}
+
+	return r-l-1;
+}
+
+
+void betterBruteForce(string str)
+{
+	if(str.length() < 1)
+	{
+		cout<<"Invalid string";
+		return;
+	}
+
+	int start=0;
+	int end=0;
+
+	for(int i=0;i<str.length();i++)
+	{
+		int len1 = expandFromMiddle(str,i,i);
+		int len2 = expandFromMiddle(str,i,i+1);
+
+		int maxlen = max(len1,len2);
+
+		if(maxlen > end-start)
+		{
+			start = i - ((maxlen-1)/2);
+			end = i + (maxlen/2);
+		}
+	}
+
+	cout<<"\nLongest palindrome: ";
+	for(int i=start;i<=end;i++)
+		cout<<str[i];
+}
+
+
+
 void dp(string str)
 {
 	int n = str.length();
@@ -109,7 +156,7 @@ int main()
 {
 	string str = "forgeeksskeegfor";
 
-	dp(str);
+	betterBruteForce(str);
 
 	return 0;
 }
