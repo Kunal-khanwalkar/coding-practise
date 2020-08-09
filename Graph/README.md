@@ -1,12 +1,12 @@
-- [ ] Depth First Traversal
-- [ ] Breadth First Traversal
-- [ ] Detect cycle in undirected graph
-- [ ] Detect cycle in a directed graph
-- [ ] Topological sort
-- [ ] Find the number of islands
-- [ ] Implementing Dijkstra
-- [ ] Minimum Swaps
-- [ ] Strongly Connected Components
+- [X] Depth First Traversal
+- [X] Breadth First Traversal
+- [X] Detect cycle in undirected graph
+- [X] Detect cycle in a directed graph
+- [X] Topological sort
+- [X] Find the number of islands
+- [X] Implementing Dijkstra
+- [X] Minimum Swaps
+- [X] Strongly Connected Components
 - [ ] Shortest Source to Destination Path
 - [ ] Find whether path exist
 - [ ] Minimum Cost Path
