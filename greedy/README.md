@@ -1,5 +1,5 @@
-- [ ] Activity Selection
-- [ ] N meetings in one room
+- [X] Activity Selection
+- [X] N meetings in one room
 - [ ] Coin Piles
 - [ ] Maximize Toys
 - [ ] Page Faults in LRU
