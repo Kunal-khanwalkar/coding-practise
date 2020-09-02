@@ -1,0 +1,20 @@
+- [X] Relative Sorting
+- [X] Sorting Elements of an Array by Frequency
+- [X] Largest subarray with 0 sum
+- [X] Largest subarray with k sum
+- [ ] Common elements
+- [X] Find all four sum numbers
+- [ ] Swapping pairs make sum equal
+- [ ] Count distinct elements in every window
+- [ ] Array Pair Sum Divisibility Problem
+- [X] Longest consecutive subsequence
+- [ ] Array Subset of another array
+- [ ] Find all pairs with a given sum
+- [ ] Find first repeated character
+- [ ] Zero Sum Subarrays
+- [ ] Minimum indexed character
+- [ ] Check if two arrays are equal or not
+- [ ] Uncommon characters
+- [ ] Smallest window in a string containing all the characters of another string
+- [ ] First element to occur k times
+- [ ] Check if frequencies can be equal

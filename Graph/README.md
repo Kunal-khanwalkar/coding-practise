@@ -1,0 +1,16 @@
+- [X] Depth First Traversal
+- [X] Breadth First Traversal
+- [X] Detect cycle in undirected graph
+- [X] Detect cycle in a directed graph
+- [X] Topological sort
+- [X] Find the number of islands
+- [X] Implementing Dijkstra
+- [X] Minimum Swaps
+- [X] Strongly Connected Components
+- [ ] Shortest Source to Destination Path
+- [ ] Find whether path exist
+- [ ] Minimum Cost Path
+- [ ] Circle of Strings
+- [ ] Floyd Warshall
+- [ ] Alien Dictionary
+- [ ] Snake and Ladder Problem

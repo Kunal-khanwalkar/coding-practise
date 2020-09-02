@@ -1,0 +1,28 @@
+- [X] Reverse words in a given string
+- [X] Permutations of a given string
+- [X] Longest Palindrome in a String
+- [X] Recursively remove all adjacent duplicates
+- [ ] Check if string is rotated by two places
+- [X] Roman Number to Integer
+- [X] Anagram
+- [X] Remove Duplicates
+- [X] Form a Palindrome
+- [ ] Longest Distinct Characters in the string
+- [X] Implement Atoi
+- [X] Implement strstr
+- [X] Longest Common Prefix
+
+Set 2:
+- [X] Most frequent word in an array of strings
+- [ ] CamelCase Pattern Matching
+- [ ] String Ignorance
+- [ ] Smallest window in a string containing all the characters of another string
+- [ ] Design a tiny URL or URL shortener
+- [X] Permutations of a given string
+- [ ] Non Repeating Character
+- [ ] Check if strings are rotations of each other or not
+- [ ] Save Ironman
+- [ ] Repeated Character
+- [ ] Remove common characters and concatenate
+- [ ] Geek and its Colored Strings
+- [ ] Second most repeated string in a sequence
